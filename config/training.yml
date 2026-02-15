@@ -1,0 +1,16 @@
+training:
+  epochs: 50
+  batch_sizes: [16, 32, 64]
+  optimizer: adam
+  loss: sparse_categorical_crossentropy
+
+kfold:
+  splits: 5
+  experiments: 40
+
+early_stopping:
+  patience: 5
+
+smote:
+  enabled: true
+  random_state: 42

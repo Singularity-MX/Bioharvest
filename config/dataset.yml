@@ -1,0 +1,18 @@
+dataset:
+  path: ../data/database/labeled-dataset.csv
+
+features:
+  - value_R
+  - value_G
+  - value_B
+  - value_I
+  - value_R_desv
+  - value_G_desv
+  - value_B_desv
+  - value_I_desv
+  - temperatura
+  - ph
+
+target: fase
+
+scaling: standard
